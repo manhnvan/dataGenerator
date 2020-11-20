@@ -8,7 +8,7 @@ const CustomerShema = mongoose.Schema({
 	address: String,
 	city: String,
 	zipCode: String,
-	saleRepEmployeeNumber: mongoose.Schema.Types.ObjectId,
+	saleRepEmployeeNumber: Number,
 	payment: [ mongoose.Schema.Types.ObjectId ],
 	orders: [ mongoose.Schema.Types.ObjectId ]
 });

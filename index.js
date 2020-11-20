@@ -1,5 +1,15 @@
 const { productLineGenerator } = require('./Generator/ProductLineGenerator');
 const { ProductGenerator } = require('./Generator/ProductGenerator');
+const { OfficeGenerator } = require('./Generator/OfficeGenerator');
+const { EmployeeGenerator } = require('./Generator/EmployeeGenerator');
+const { CustomerGenerator } = require('./Generator/CustomerGenerator');
+const { OrderGnerator } = require('./Generator/OrderGenerator');
+const {PaymentGenerator} = require('./Generator/PaymentGenerator')
 
 // productLineGenerator()
-ProductGenerator();
+// ProductGenerator();
+// OfficeGenerator();
+// EmployeeGenerator();
+// CustomerGenerator()
+// OrderGnerator();
+PaymentGenerator()

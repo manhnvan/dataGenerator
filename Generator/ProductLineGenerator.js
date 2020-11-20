@@ -1,4 +1,3 @@
-const ProductLine = require('../models/ProductLineSchema');
 const faker = require('faker');
 const ObjectsToCsv = require('objects-to-csv');
 
