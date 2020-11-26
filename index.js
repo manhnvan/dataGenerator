@@ -5,6 +5,8 @@ const { EmployeeGenerator } = require('./Generator/EmployeeGenerator');
 const { CustomerGenerator } = require('./Generator/CustomerGenerator');
 const { OrderGnerator } = require('./Generator/OrderGenerator');
 const {PaymentGenerator} = require('./Generator/PaymentGenerator')
+const {OrderGneratorForMysql} = require('./Generator/OrderForMysql')
+const {OrderDetailGneratorForMysql} = require('./Generator/OrderDetailGenForMysql')
 
 // productLineGenerator()
 // ProductGenerator();
@@ -12,4 +14,6 @@ const {PaymentGenerator} = require('./Generator/PaymentGenerator')
 // EmployeeGenerator();
 // CustomerGenerator()
 // OrderGnerator();
-PaymentGenerator()
+// PaymentGenerator()
+// OrderGneratorForMysql();
+OrderDetailGneratorForMysql()
